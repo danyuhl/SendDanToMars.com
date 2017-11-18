@@ -7,7 +7,23 @@ body {
 #title {
     color:yellow;
     text-shadow: 2px 2px #FF0000;
+    -webkit-animation-name: textflash;
+    -webkit-animation-duration: 0.25s;
+    animation-name: textflash;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1, end);
 }
+
+@-webkit-keyframes textflash {
+    0% {color: yellow;}
+    50% {color: cyan;}
+}
+@keyframes textflash {
+    0% {color: yellow;}
+    50% {color: cyan;}
+}
+
 #header {
     margin-bottom: 50px;
 }
