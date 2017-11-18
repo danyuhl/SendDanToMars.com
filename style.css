@@ -1,5 +1,6 @@
 body {
     font-family: monospace;
+    font-size: 1.5em;
     background: black;
     color: yellow;
     text-align: center;
@@ -26,4 +27,14 @@ body {
 
 #header {
     margin-bottom: 50px;
+}
+
+#danmars {
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    #danmars {
+        width: 900px;
+    }
 }
