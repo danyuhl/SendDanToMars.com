@@ -1,11 +1,12 @@
 body {
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 1.2em;
     background: black;
     color: yellow;
     text-align: center;
 }
 #title {
+    font-size: 3em;
     color:yellow;
     text-shadow: 2px 2px #FF0000;
     -webkit-animation-name: textflash;
@@ -26,7 +27,7 @@ body {
 }
 
 #header {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 #danmars {
@@ -39,6 +40,29 @@ body {
     }
 }
 
+#marspics {
+    width: 30%;
+}
+
 #contact {
-    color:grey;
+    color:dimgrey;
+}
+
+#Subtitle {
+    color:dimgrey;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#link {
+    color:dimgrey;
+}
+
+#smalltext {
+    color:dimgrey;
+    font-size: 0.2em;
+}
+
+#greytext {
+    color:dimgrey;
 }
